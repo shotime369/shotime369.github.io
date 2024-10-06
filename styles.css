@@ -26,11 +26,11 @@ header h1 {
 }
 
 .profile-image {
-    width: 400px;
+    width: 380px;
     height: 300px;
     object-fit: cover;
     border: 5px solid #ADD8E6; /* Pastel blue border */
-    border-radius: 15px;
+    border-radius: 20px;
     margin: 20px 0;
 }
 
