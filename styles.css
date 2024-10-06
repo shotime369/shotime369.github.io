@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F0E4F7; /* Soft pastel purple */
+    color: #4F4A6D; /* Darker pastel shade for text */
+}
+
+header {
+    background-color: #FFC0CB; /* Pastel pink */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #3C3B4F; /* Slightly darker color for contrast */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #ADD8E6; /* Pastel blue border */
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.textbox {
+    width: 60%;
+    background-color: #E6E6FA; /* Light lavender */
+    border: 2px solid #D8BFD8; /* Thistle border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.textbox p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    cursor: text;
+}
