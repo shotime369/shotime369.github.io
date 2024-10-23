@@ -28,10 +28,10 @@ body{
 .container {
   width: 500px;
   height: 500px;
-    top:100px;
+  top:50px;
+  left: 100px;
 
-      justify-content: center;
-    position: absolute;
+  position: absolute;
   }
 
 .char{
