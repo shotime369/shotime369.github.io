@@ -13,36 +13,36 @@ body{
             position: static;
             font-family: 'trade winds', serif;
             font-size:32px;
+            width: 50%;
+            margin: auto;
         }
 
   .button-container {
-    display: flex;
-    justify-content: center;
-    gap: 5px; /* Adjust spacing between buttons */
-    margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 5px; /* Adjust spacing between buttons */
+      margin-top: 10px;
       font-family: 'Bahiana', serif;
-    font-size: 24px;
+      font-size: 24px;
   }
 
-
-.container {
-  width: 500px;
-  height: 500px;
+.doll-container {
   position: absolute;
+
   }
 
 .char{
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: auto;
     z-index: -550;
 }
 
 .shirt, .bottom, .shoes, .eyes, .hair, .acc, .weapon, .tattoo, .mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-  visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: auto;
+    visibility: hidden;
 }
 
 .shirt {
@@ -68,4 +68,7 @@ body{
 }
 .tattoo{
     z-index: 1;
+}
+.mask {
+    z-index: 11
 }
