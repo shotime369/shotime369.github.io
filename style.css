@@ -38,7 +38,7 @@ body{
     z-index: -550;
 }
 
-.shirt, .bottom, .shoes {
+.shirt, .bottom, .shoes, .eyes, .hair, .acc, .weapon, .tattoo, .mask {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,11 +46,26 @@ body{
 }
 
 .shirt {
-  z-index: 2;
+  z-index: 4;
 }
 .bottom {
-  z-index: 1;
+  z-index: 6;
 }
 .shoes {
-  z-index: 3;
+  z-index: 8;
+}
+.eyes {
+    z-index: 9;
+}
+.hair{
+    z-index: 7;
+}
+.acc{
+    z-index: 5;
+}
+.weapon{
+    z-index: 10;
+}
+.tattoo{
+    z-index: 3;
 }

@@ -32,6 +32,7 @@ function ImageSwitcher(choices, i) {
 	const hair = $(".hair");
 	const eyes = $(".eyes");
 	const tattoo = $(".tattoo");
+	const mask = $(".mask");
 
 	const shirt_picker = new ImageSwitcher(shirts);
 	document.getElementById("shirt_button").onclick = function() { shirt_picker.Next(); };
@@ -56,6 +57,9 @@ function ImageSwitcher(choices, i) {
 
 	const tattoo_picker = new ImageSwitcher(tattoo);
 	document.getElementById("tattoo_button").onclick = function() {tattoo_picker.Next(); };
+
+	const mask_picker = new ImageSwitcher(mask);
+	document.getElementById("mask_button").onclick = function() {mask_picker.Next(); };
 });
 
   $("#shirt_button").click(function(){
