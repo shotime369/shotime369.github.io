@@ -63,8 +63,19 @@ function ImageSwitcher(choices, i) {
 });
 
   $("#shirt_button").click(function(){
-  $("#shirt-menu").css("visibility", "visible"); 
+	  $("#shirt-menu").css("visibility", "visible");
+  });
+
+  $("#bottom_button").click(function() {
+	  $("#bottom-menu").css("visibility", "visible");
+  });
+
+  $("#shoes_button").click(function() {
+	  $("#shoes-menu").css("visibility", "visible");
+  });
+
+
+
   
 
   
-  });
