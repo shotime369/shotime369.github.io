@@ -6,12 +6,12 @@ body{
         .heading{
             background-color:#ad9b86;
             padding:5px;
-            border:0px solid #8cbf99;
+            border:0 solid #8cbf99;
             border-radius: 10px;
             color:#235430;
             text-align: center;
             position: static;
-            font-family: 'trade winds';
+            font-family: 'trade winds', serif;
             font-size:32px;
         }
 
@@ -20,7 +20,7 @@ body{
     justify-content: center;
     gap: 5px; /* Adjust spacing between buttons */
     margin-top: 10px;
-    font-family: 'Bahiana';
+      font-family: 'Bahiana', serif;
     font-size: 24px;
   }
 
