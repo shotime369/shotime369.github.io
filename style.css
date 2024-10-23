@@ -49,7 +49,7 @@ body{
   z-index: 4;
 }
 .bottom {
-  z-index: 6;
+  z-index: 2;
 }
 .shoes {
   z-index: 8;
@@ -67,5 +67,5 @@ body{
     z-index: 10;
 }
 .tattoo{
-    z-index: 3;
+    z-index: 1;
 }
