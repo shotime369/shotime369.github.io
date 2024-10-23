@@ -1,8 +1,24 @@
 
 body{
 	background-color: #e0d9b4;
-  font-family: 'Ubuntu', sans-serif;
+    font-family: "Jacquard 12", system-ui;
 }
+.jacquard-12-regular {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.trade-winds-regular {
+    font-family: "Trade Winds", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bahiana-regular {
+    font-family: "Bahiana", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
         .heading{
             background-color:#ad9b86;
             padding:5px;
@@ -11,7 +27,7 @@ body{
             color:#235430;
             text-align: center;
             position: static;
-            font-family: 'trade winds', serif;
+            font-family: "Jacquard 12", system-ui;
             font-size:32px;
             width: 50%;
             margin: auto;
@@ -22,7 +38,7 @@ body{
       justify-content: center;
       gap: 5px; /* Adjust spacing between buttons */
       margin-top: 10px;
-      font-family: 'Bahiana', serif;
+      font-family: "Jacquard 12", system-ui;
       font-size: 24px;
   }
 
